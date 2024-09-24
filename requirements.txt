@@ -1,0 +1,14 @@
+jieba
+gensim
+tqdm
+
+
+nltk
+scikit-image
+scipy
+torchvision
+matplotlib
+imageio
+
+graphviz
+torchviz
