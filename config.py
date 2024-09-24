@@ -38,10 +38,10 @@ min_word_freq = 3 #词汇表中词的最小频率，低于该频率的词将被�
 
 # Data parameters
 data_folder = 'data'
-train_folder = 'E:\Codefields\Image Captioning\Image-Caption-master\data/ai_challenger_caption_train_20170902'
-valid_folder = 'E:\Codefields\Image Captioning\Image-Caption-master\data/ai_challenger_caption_validation_20170910'
-test_a_folder = 'E:\Codefields\Image Captioning\Image-Caption-master\data/ai_challenger_caption_test_a_20180103'
-test_b_folder = 'E:\Codefields\Image Captioning\Image-Caption-master\data/ai_challenger_caption_test_b_20180103'
+train_folder = 'data/ai_challenger_caption_train_20170902'
+valid_folder = 'data/ai_challenger_caption_validation_20170910'
+test_a_folder = 'data/ai_challenger_caption_test_a_20180103'
+test_b_folder = 'data/ai_challenger_caption_test_b_20180103'
 train_image_folder = os.path.join(train_folder, 'caption_train_images_20170902')
 valid_image_folder = os.path.join(valid_folder, 'caption_validation_images_20170910')
 test_a_image_folder = os.path.join(test_a_folder, 'caption_test_a_images_20180103')
