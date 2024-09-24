@@ -2,7 +2,7 @@
 
 图像中文描述 + 视觉注意力的 PyTorch 实现。
 
-[Show, Attend, and Tell](https://arxiv.org/pdf/1502.03044.pdf) 这篇论文的复现，[这里是作者的原始实现](https://github.com/kelvinxu/arctic-captions)。
+[Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/pdf/1502.03044.pdf) 这篇论文的复现，[这里是作者的原始实现](https://github.com/kelvinxu/arctic-captions)。
 
 改进字自这个项目：https://github.com/foamliu/Image-Captioning-PyTorch/tree/master
 原作者用的torch版本太低了，提供的模型也不是对应torch版本的，所以做了些更改
@@ -30,13 +30,18 @@
 $ python pre_process.py
 ```
 
+### 生成WORDMAP.json
+```bash
+$ python pre_process.py
+```
+
 ### 训练
 ```bash
 $ python train.py
 ```
 
 ### 演示
-下载 [预训练模型](https://github.com/coni233/ImageCaptioning-Chinese-PyTorch/edit/main/README.md) 放在 models 目录，然后执行:
+下载 [预训练模型](https://github.com/coni233/ImageCaptioning-Chinese-PyTorch/) 放在 models 目录，然后执行:
 
 ```bash
 $ python demo.py
