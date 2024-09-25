@@ -2,10 +2,20 @@ jieba
 gensim
 tqdm
 
+scipy
+numpy
+matplotlib
+opencv-python
+tqdm
+Pillow
+h5py
+
+torch
+torchvision
+tensorboard
 
 nltk
 scikit-image
-scipy
 torchvision
 matplotlib
 imageio
